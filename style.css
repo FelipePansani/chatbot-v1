@@ -1,0 +1,58 @@
+html, body {
+    height: 100%;
+}
+
+.container.screen{
+    border-radius: 0.8rem;
+    width: 20rem;
+    padding: 0%;
+    height: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container.top-container {
+    border-top-left-radius: 0.8rem;
+    overflow-y: auto;
+    height: 90%;
+    background:rgb(220, 220, 220);
+}
+
+.container.bottom-container {
+    width: 100%;
+    overflow-y: auto;
+}
+
+.row.input-box{
+    margin: 5px;
+}
+
+input{
+    height: 100%;
+    border-radius: 0.5rem;
+}
+
+.card{
+    padding: 0.4rem;
+    border-top-left-radius: 0.8rem;
+    width: 80%;
+    margin: 4%;
+    text-align: center;
+}
+
+.card.bg-primary{
+    float: right;
+    color: white;
+}
+
+.container.question-box{
+    color: white;
+    text-align: center;
+    border-radius: 0.2rem;
+    border-top-left-radius: 0.8rem;
+    margin: 4%;
+    width: 80%;
+    float: right;
+    background: blue;
+}
+
+
